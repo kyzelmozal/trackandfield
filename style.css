@@ -1,0 +1,79 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "ivypresto-display", serif;
+  font-weight: 100;
+  font-style: normal;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.title {
+  position: absolute;
+  top: 45vh;
+  animation: opacity 5s linear 2s both;
+  font-size: 3vw;
+}
+
+#verse {
+  width: 80vw;
+  position: absolute;
+  top: 45vh;
+  text-align: center;
+  animation: opacity 5s linear 7s both;
+  font-size: 2vw;
+}
+
+#menu {
+  font-size: 5vmax;
+  animation: opacity2 2s linear 12s both;
+}
+
+#indoor:hover {
+  font-style: italic;
+}
+
+#outdoor:hover {
+  font-style: italic;
+}
+
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes opacity2 {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "ivypresto-display", serif;
+  font-weight: 100;
+  font-style: normal;
+  display: block;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.door {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+#indoor, #outdoor {
+  margin: auto 2.5vw;
+  font-size: 5vmax;
+}
+
+
+
+.events {
+  padding-bottom: 10%;
+}
+
+.numbers {
+  margin: 2.5vh auto;
+  font-size: 3vmax;
+  width: 40vw;
+}
+
+.numbers:hover span {
+  display: none;
+}
+
+#ten:hover:before {
+  content: "1.5.2024";
+}
+#fifteen:hover:before {
+  content: "3.25.2024";
+}
+#twenty:hover:before {
+  content: "4.1.2024";
+}
+#thirty:hover:before {
+  content: "3.25.2024";
+}
+#forty:hover:before {
+  content: "n/a";
+}
+#HH:hover:before {
+  content: "4.1.2024";
+}
+#LJ:hover:before {
+  content: "3.25.2024";
+}
+#TJ:hover:before {
+  content: "4.1.24";
+}
+
