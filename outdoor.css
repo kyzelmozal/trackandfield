@@ -19,27 +19,32 @@ a {
   color: black;
 }
 
+.container {
+  display: grid; 
+  width: 80%;
+  margin: 0 10%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
 .door {
-  display: flex;
-  justify-content: center;
-  padding-top: 10%;
+  text-align: center;
 }
 
-#indoor, #outdoor {
+#home, #indoor, #outdoor {
   margin: auto 2.5vw;
-  font-size: 5vmax;
+  font-size: clamp(32px, 10vw, 64px);
 }
 
-
-
-.events {
-  padding-bottom: 10%;
+#outdoor {
+  font-style: italic;
 }
 
 .numbers {
   margin: 2.5vh auto;
-  font-size: 3vmax;
-  width: 40vw;
+  font-size: clamp(16px, 5vw, 24px);
+  width: clamp(200px, 30vw, 30vw);
 }
 
 .numbers:hover span {
